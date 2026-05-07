@@ -21,7 +21,42 @@ export default async function K2DatabasePage({
     <main style={{ padding: '40px', fontFamily: 'system-ui, sans-serif', maxWidth: '1000px', margin: '0 auto' }}>
       <h1 style={{ color: '#1a202c' }}>Vitamin K2 Datenbank</h1>
       <p style={{ color: '#4a5568' }}>Suche in über 130 Lebensmitteln nach ihrem Vitamin K2 Gehalt.</p>
-      
+     {/* Header mit Logo */}
+<header style={{ textAlign: 'center', marginBottom: '15px' }}>
+  <img src="/K2viewer.jpg" alt="K2viewer Logo" style={{ maxWidth: '200px', height: 'auto' }} />
+</header>
+
+{/* Zwei-Spalten Layout: Text links, Bild rechts */}
+<div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '40px', alignItems: 'center', marginBottom: '20px' }}>
+  
+  <div className="header-text">
+    <h1 style={{ fontSize: '2rem', marginBottom: '10px' }}>The K2 Database</h1>
+    <p style={{ lineHeight: '1.5' }}>
+      The K2viewer database helps you identify vitamin K2–rich foods and highlights which subforms
+      (menaquinone 4–10 and phylloquinone (K1)) are present.<br />
+      Unlisted food items have not been analyzed so far and vitamin K2 content is rather unlikely.
+    </p>
+
+    <div style={{ marginBottom: '18px' }}>
+      <strong>The database can be searched and filtered with the following functions:</strong>
+      <ul style={{ paddingLeft: '20px' }}>
+        <li>Use the global search to search across all columns.</li>
+        <li>Click on a column header to sort ascending or descending.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div style={{ textAlign: 'center' }}>
+    <img src="/K2L.jpg" alt="Vitamin K illustration" style={{ maxWidth: '100%', height: 'auto', maxHeight: '320px', borderRadius: '8px' }} />
+    <div style={{ textAlign: 'center', fontSize: '0.9em', marginTop: '5px' }}>
+      Vitamin K2 rich groceries (Image generated with AI).
+    </div>
+  </div>
+</div>
+
+<div style={{ marginBottom: '15px', color: '#666', fontSize: '14px' }}>
+    All contents are displayed in µg/100g  |  PK: Phylloquinone  |  MK: Menaquinone
+</div> 
       {/* Suchfeld */}
       <form method="GET" style={{ marginBottom: '30px' }}>
         <input 
