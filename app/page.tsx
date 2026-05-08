@@ -75,9 +75,9 @@ export default async function K2DatabasePage() {
         <div className="header-text">
           <h1>The K2 Database</h1>
           <p>
-            The K2viewer database helps you identify vitamin K2–rich foods and highlights which subforms
+            The K2viewer database helps you to identify vitamin K2–rich foods and highlights which subforms
             (menaquinone 4–10 and phylloquinone (K1)) are present.<br />
-            Unlisted food items have not been analyzed so far and vitamin K2 content is rather unlikely.
+            Unlisted food items have not been analyzed so far and a significant contribution to the vitamin K2 supply is rather unlikely.
           </p>
 
           <div style={{ marginBottom: '18px' }}>
