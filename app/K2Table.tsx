@@ -205,8 +205,8 @@ export default function K2Table({ columns, initialRows }: K2TableProps) {
       </div>
 
       <div style={{ marginTop: '20px', color: '#666', fontSize: '14px', lineHeight: '1.6' }}>
-        NA - Not available values.<br />
-        ND - Not detected values.
+        NA - Not analyzed<br />
+        ND - Not detectable
       </div>
     </div>
   );
