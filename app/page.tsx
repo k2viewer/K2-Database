@@ -109,10 +109,9 @@ export default async function K2DatabasePage() {
           <strong>Impressum</strong>
           <p style={{ margin: '5px 0' }}>
             Verantwortlich für den Inhalt:<br />
-            [Dein Name / Name der Organisation]<br />
-            [Deine Straße und Hausnummer]<br />
-            [Deine PLZ und Ort]<br />
-            Kontakt: [Deine E-Mail-Adresse]
+            Dr. troph Nadine Kaesler<br />
+            University Hospital RWTH Aachen<br />
+            Kontakt: nkaesler@ukaache.de
           </p>
         </div>
         <div>
