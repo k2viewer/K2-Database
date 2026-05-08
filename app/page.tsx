@@ -1,138 +1,118 @@
 import { sql } from '@vercel/postgres';
+import K2Table from './K2Table';
 
-export default async function K2DatabasePage({
-  searchParams,
-}: {
-  searchParams: { query?: string };
-}) {
-  const searchTerm = searchParams?.query || '';
-  
-  // Optimierte Abfrage: Lädt bis zu 200 Einträge, passend zur Suche
-  const { rows } = await sql`
-    SELECT * FROM datenbank_calculations_20_4_26_dots_2 
-    WHERE "Food items" ILIKE ${'%' + searchTerm + '%'}
-    OR "Category main A" ILIKE ${'%' + searchTerm + '%'}
-    ORDER BY "Summe Vitamin K" DESC
-    LIMIT 200
+export default async function K2DatabasePage() {
+  const table = 'datenbank_calculations_20_4_26_dots_2';
+
+  // 1. Spaltennamen dynamisch aus Postgres abfragen (ersetzt SHOW COLUMNS)
+  const columnsResult = await sql`
+    SELECT column_name 
+    FROM information_schema.columns 
+    WHERE table_name = ${table}
+    ORDER BY ordinal_position;
   `;
+  const columns = columnsResult.rows.map((r) => r.column_name);
+
+  // 2. Alle Zeilen abfragen
+  const rowsResult = await sql`
+    SELECT * FROM datenbank_calculations_20_4_26_dots_2
+  `;
+  const rows = rowsResult.rows;
 
   return (
-    <div style={{ 
-      padding: '40px 20px', 
-      fontFamily: 'system-ui, -apple-system, sans-serif', 
-      maxWidth: '900px', 
-      margin: '0 auto',
-      color: '#333',
-      lineHeight: '1.6'
-    }}>
-      {/* Header-Bereich mit Logos */}
-      <div style={{ 
-        display: 'flex', 
-        justifyContent: 'space-between', 
-        alignItems: 'center', 
-        marginBottom: '40px',
-        borderBottom: '1px solid #eee',
-        paddingBottom: '20px'
-      }}>
-        <img src="/K2viewer.jpg" alt="K2 Viewer Logo" style={{ height: '60px', objectFit: 'contain' }} />
-        <img src="/SFB-Logo.jpg" alt="SFB Logo" style={{ height: '60px', objectFit: 'contain' }} />
-      </div>
-
-      {/* Haupt-Überschrift und Intro-Bild */}
-      <div style={{ textAlign: 'center', marginBottom: '40px' }}>
-        <h1 style={{ fontSize: '2.5rem', marginBottom: '10px', color: '#111' }}>Vitamin K2 Datenbank</h1>
-        <p style={{ color: '#666', fontSize: '1.1rem' }}>Suchen und vergleichen Sie den Vitamin K2-Gehalt verschiedener Lebensmittel.</p>
+    <div className="container">
+      {/* Eingebettetes CSS (exakt dein altes Design!) */}
+      <style dangerouslySetInnerHTML={{ __html: `
+        body { font-family: system-ui, Arial, sans-serif; margin: 25px; color: #333; }
+        header { text-align: center; margin-bottom: 15px; }
+        header img { max-width: 200px; height: auto; }
         
-        {/* Zweites Bild (K2L.jpg) als dekoratives Banner */}
-        <div style={{ marginTop: '20px' }}>
-          <img src="/K2L.jpg" alt="Vitamin K2 Übersicht" style={{ width: '100%', maxHeight: '300px', objectFit: 'cover', borderRadius: '8px' }} />
+        .caption { text-align: center; font-size: 0.9em; margin-top: 5px; color: #666; }
+        
+        .header-section { 
+          display: grid; 
+          grid-template-columns: 1fr 1fr; 
+          gap: 40px; 
+          align-items: center; 
+          margin-bottom: 20px; 
+        }
+        @media (max-width: 768px) {
+          .header-section { grid-template-columns: 1fr; gap: 20px; }
+        }
+        
+        .header-text { line-height: 1.5; }
+        .side-image { text-align: center; }
+        .side-image img { max-width: 100%; height: auto; max-height: 320px; border-radius: 8px; }
+        
+        table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+        th, td { border: 1px solid #ddd; padding: 8px; font-size: 14px; }
+        th { background: #f2f2f2; cursor: pointer; user-select: none; }
+        tr:nth-child(even){ background: #fafafa; }
+        th:hover { background: #e6e6e6; }
+        
+        .controls { display: flex; gap: 12px; align-items: center; margin-bottom: 15px; flex-wrap: wrap; margin-top: 25px; }
+        .controls input, .controls select { padding: 8px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px; }
+        .small-muted { color: #666; font-size: 13px; margin-left: auto; }
+        .sort-icon { margin-left: 6px; color: #666; }
+        
+        footer {
+          margin-top: 60px;
+          padding-top: 20px;
+          border-top: 1px solid #eee;
+          font-size: 0.85rem;
+          color: #666;
+          text-align: center;
+        }
+      `}} />
+
+      {/* Header mit K2viewer Logo */}
+      <header>
+        <img src="/K2viewer.jpg" alt="K2viewer Logo" />
+      </header>
+
+      {/* Zweispaltiger Header-Bereich */}
+      <div className="header-section">
+        <div className="header-text">
+          <h1>The K2 Database</h1>
+          <p>
+            The K2viewer database helps you identify vitamin K2–rich foods and highlights which subforms
+            (menaquinone 4–10 and phylloquinone (K1)) are present.<br />
+            Unlisted food items have not been analyzed so far and vitamin K2 content is rather unlikely.
+          </p>
+
+          <div style={{ marginBottom: '18px' }}>
+            <strong>The database can be searched and filtered with the following functions:</strong>
+            <ul style={{ marginTop: '8px', paddingLeft: '20px' }}>
+              <li>Use the global search to search across all columns.</li>
+              <li>Use the dropdown filters below each column to filter specific values.</li>
+              <li>Click on a column header to sort ascending or descending.</li>
+              <li>Select how many entries should be displayed.</li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Bild-Sektion */}
+        <div className="side-image">
+          <img src="/K2L.jpg" alt="Vitamin K illustration" />
+          <div className="caption">
+            Vitamin K2 rich groceries (Image generated with AI).
+          </div>
         </div>
       </div>
-      
-      {/* Suchformular */}
-      <form method="GET" style={{ 
-        display: 'flex', 
-        gap: '10px', 
-        marginBottom: '30px',
-        backgroundColor: '#f9f9f9',
-        padding: '15px',
-        borderRadius: '8px',
-        border: '1px solid #eee'
-      }}>
-        <input 
-          name="query" 
-          defaultValue={searchTerm} 
-          placeholder="z. B. Käse, Butter, Ei..." 
-          style={{ 
-            flex: 1, 
-            padding: '12px', 
-            borderRadius: '6px', 
-            border: '1px solid #ccc',
-            fontSize: '1rem'
-          }} 
-        />
-        <button type="submit" style={{ 
-          padding: '12px 24px', 
-          backgroundColor: '#0070f3', 
-          color: 'white', 
-          border: 'none', 
-          borderRadius: '6px', 
-          cursor: 'pointer',
-          fontWeight: 'bold',
-          fontSize: '1rem'
-        }}>
-          Suchen
-        </button>
-      </form>
 
-      {/* Tabelle */}
-      <div style={{ overflowX: 'auto', boxShadow: '0 4px 6px -1px rgba(0,0,0,0.1)', borderRadius: '8px', border: '1px solid #eee' }}>
-        <table style={{ width: '100%', borderCollapse: 'collapse', backgroundColor: 'white' }}>
-          <thead>
-            <tr style={{ background: '#f4f4f4' }}>
-              <th style={{ textAlign: 'left', padding: '16px', borderBottom: '2px solid #ddd', fontWeight: '600' }}>Lebensmittel (Food Item)</th>
-              <th style={{ textAlign: 'left', padding: '16px', borderBottom: '2px solid #ddd', fontWeight: '600' }}>Kategorie</th>
-              <th style={{ textAlign: 'right', padding: '16px', borderBottom: '2px solid #ddd', fontWeight: '600' }}>K2 (µg/100g)</th>
-            </tr>
-          </thead>
-          <tbody>
-            {rows.length > 0 ? (
-              rows.map((row, i) => (
-                <tr key={i} style={{ borderBottom: '1px solid #eee', transition: 'background 0.2s' }}>
-                  <td style={{ padding: '16px', fontWeight: '500' }}>{row['Food items']}</td>
-                  <td style={{ padding: '16px', color: '#666' }}>{row['Category main A']}</td>
-                  <td style={{ padding: '16px', textAlign: 'right', fontWeight: 'bold', color: '#0070f3' }}>
-                    {row['Summe Vitamin K'] ? Number(row['Summe Vitamin K']).toFixed(2) : '0.00'}
-                  </td>
-                </tr>
-              ))
-            ) : (
-              <tr>
-                <td colSpan={3} style={{ padding: '30px', textAlign: 'center', color: '#999' }}>
-                  Keine Ergebnisse für "{searchTerm}" gefunden.
-                </td>
-              </tr>
-            )}
-          </tbody>
-        </table>
-      </div>
+      {/* Interaktive Tabelle (Client-Komponente) */}
+      <K2Table columns={columns} initialRows={rows} />
 
-      {/* Impressum & Datenschutz Footer */}
-      <footer style={{ 
-        marginTop: '60px', 
-        paddingTop: '20px', 
-        borderTop: '1px solid #eee', 
-        fontSize: '0.85rem', 
-        color: '#666',
-        textAlign: 'center'
-      }}>
+      {/* Integriertes Impressum & Datenschutz Footer */}
+      <footer>
         <div style={{ marginBottom: '15px' }}>
           <strong>Impressum</strong>
           <p style={{ margin: '5px 0' }}>
             Verantwortlich für den Inhalt:<br />
-            Dr. troph Nadine Kaesler
-            University Hospital RWTH Aachen 
-           E-mail: nkaesler@ukaachen.de
+            [Dein Name / Name der Organisation]<br />
+            [Deine Straße und Hausnummer]<br />
+            [Deine PLZ und Ort]<br />
+            Kontakt: [Deine E-Mail-Adresse]
           </p>
         </div>
         <div>
