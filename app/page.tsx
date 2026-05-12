@@ -111,7 +111,7 @@ export default async function K2DatabasePage() {
             Verantwortlich für den Inhalt:<br />
             Dr. troph Nadine Kaesler<br />
             University Hospital RWTH Aachen<br />
-            Kontakt: nkaesler@ukaache.de
+            Kontakt: nkaesler@ukaachen.de
           </p>
         </div>
         <div>
