@@ -100,6 +100,11 @@ export default async function K2DatabasePage() {
         </div>
       </div>
 
+   {/* Header mit SFB Logo */}
+      <header>
+        <img src="/SFB-Logo.jpg" alt="K2viewer Logo" />
+      </header>
+      
       {/* Interaktive Tabelle (Client-Komponente) */}
       <K2Table columns={columns} initialRows={rows} />
 
