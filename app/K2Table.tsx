@@ -207,6 +207,20 @@ export default function K2Table({ columns, initialRows }: K2TableProps) {
       <div style={{ marginTop: '20px', color: '#666', fontSize: '14px', lineHeight: '1.6' }}>
         NA - Not analyzed<br />
         ND - Not detectable
+        1 Dunlop E, Food Chemistry, 2022 
+        2 Elder SJ, J Agric Food Chem, 2006;           
+        3 Ferreira DW,Journal of Food Science, 2006
+        4 Fu X, Curr Dev Nutr, 2017
+        5 Jensen MB, Food Chemistry, 2022           
+        6 own analysis                       
+        7 Kamao M, J Nutr Sci Vitaminol, 2007      
+        8 Palmer CR, Frontiers Nutrition, 2021
+        9 Schurgers LJ, Haemostasis, 2019              
+        10 Tarvainen M, Food Chemistry, 2019        
+        11 Vermeer C, Nutrients, 2018                                                                   
+        12 Reksten AM, Br J Nutr, 2025
+        13 Ostermeyer U, Eur Food Res Technol, 2001
+
       </div>
     </div>
   );
