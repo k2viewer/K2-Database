@@ -1,0 +1,231 @@
+Food items;Category main A;Category main B;Category sub 1;Category Sub2;PK;MK4;MK5;MK6;MK7;MK8;MK9;MK10 ;Summe K2;Summe Vitamin K;References
+1% fat Milk;Dairy;Drinks;not specified ;not specified ;0.1;0.1;ND;ND;ND;ND;ND;NA;0.1;0.2;"2; 8; 9;"
+3.5% Whole fat milk;Dairy;Drinks;not specified ;not specified ;0.5;1.2;0.1;ND;ND;0.1;ND;ND;1.3;1.9;"2; 9; 7; 5"
+Butter milk;Dairy;Drinks;not specified ;not specified ;ND;0.2;0.1;0.1;0.1;0.6;1.4;NA;2.5;2.5;9
+Full fat cream (30-38% fat);Dairy;not specified ;not specified ;not specified ;2.9;7.9;ND;ND;ND;ND;14.7;42.6;65.3;68.2;"9; 7; 4; 5"
+Yoghurt (3.5% fat);Dairy;not specified ;not specified ;not specified ;0.3;0.8;0.1;ND;0.0;0.1;3.3;0.8;5.0;5.4;"9; 7; 4"
+Low fat yoghurt (0.1-1.5% fat);Dairy;not specified ;not specified ;not specified ;ND;0.3;ND;ND;ND;0.1;ND;ND;0.3;0.3;"9; 5"
+Greek yoghut (10% fat);Dairy;not specified ;not specified ;not specified ;0.5;2.0;ND;ND;0.1;ND;7.4;0.9;10.4;10.9;"4; 5; 8"
+Fruit flavored yoghurt;Dairy;not specified ;not specified ;not specified ;0.5;1.8;ND;ND;ND;ND;ND;ND;1.8;2.3;1
+Ice cream (regular fat);Dairy;Sweets;not specified ;not specified ;1.9;3.3;NA;NA;ND;NA;NA;NA;2.6;4.5;"2; 8"
+Thickend cream (creme fraiche);Dairy;not specified ;not specified ;not specified ;ND;20.1;NA;NA;0.9;NA;NA;NA;2.6;2.6;8
+Whole curd;Dairy;not specified ;not specified ;not specified ;1.1;2.4;0.4;0.2;0.5;1.7;6.3;ND;11.5;12.6;1
+Skyr (0.2% fat);Dairy;not specified ;not specified ;not specified ;ND;ND;ND;ND;ND;ND;ND;ND;0.0;0.0;5
+Ymer (3.5% fat);Dairy;not specified ;not specified ;not specified ;0.3;0.8;0.2;0.1;0.5;2.2;11.4;0.8;16.0;16.3;5
+Soured milk (3.5% fat);Dairy;not specified ;not specified ;not specified ;0.3;0.8;0.1;ND;0.3;1.8;8.4;0.7;12.1;12.4;5
+Sour cream (18% fat);Dairy;not specified ;not specified ;not specified ;1.4;3.8;ND;ND;0.3;1.5;7.4;0.6;13.5;14.9;5
+Sour Cream (38% fat);Dairy;not specified ;not specified ;not specified ;3.4;11.2;ND;0.2;0.1;1.6;7.5;0.8;21.3;24.7;"5; 8"
+Curd cheese;Dairy;not specified ;Cheese;fresh cheese;0.3;0.4;0.1;0.2;0.3;5.1;18.7;NA;24.8;25.1;9
+Cottage cheese (4% fat);Dairy;not specified ;Cheese;fresh cheese;0.4;0.6;0.5;0.5;1.0;4.9;15.5;0.7;23.5;23.9;"4; 5"
+Cottage cheese (low fat);Dairy;not specified ;Cheese;fresh cheese;ND;ND;ND;ND;ND;0.8;2.3;0.3;3.4;3.4;4
+Cream cheese;Dairy;not specified ;Cheese;fresh cheese;2.2;6.1;0.5;ND;0.4;1.2;36.6;ND;44.8;47.0;"1; 8"
+Mozzarella;Dairy;not specified ;Cheese;fresh cheese;1.3;5.0;0.1;ND;0.1;0.2;0.5;1.7;7.6;8.9;"1; 5; 4"
+Brie;Dairy;not specified ;Cheese;surface ripened;3.0;9.5;0.2;0.2;0.2;1.7;4.4;0.5;16.8;19.8;"1; 5; 8"
+Boursin;Dairy;not specified ;Cheese;surface ripened;4.6;8.9;ND;0.1;0.3;0.8;0.9;ND;11.1;15.7;1
+Camembert;Dairy;not specified ;Cheese;surface ripened;2.2;6.5;0.8;0.7;2.3;14.0;30.3;0.8;55.4;57.6;"1; 5"
+Muenster;Dairy;not specified ;Cheese;surface ripened;2.1;10.2;0.5;0.5;8.4;41.2;19.4;ND;80.1;82.1;1
+Blue cheese;Dairy;not specified ;Cheese;blue veined cheese;3.2;10.3;0.6;ND;4.0;11.6;271.0;14.3;311.8;315.0;4
+Roquefort;Dairy;not specified ;Cheese;blue veined cheese;6.6;13.1;0.6;0.5;1.2;5.1;17.6;ND;38.1;44.6;1
+Gorgonzola;Dairy;not specified ;Cheese;blue veined cheese;1.6;10.0;0.6;0.5;1.6;0.9;0.2;0.4;14.2;15.8;"1; 5"
+Stilton;Dairy;not specified ;Cheese;blue veined cheese;3.6;10.0;0.9;0.6;1.4;6.6;29.8;ND;49.4;53.0;1
+Danablue;Dairy;not specified ;Cheese;blue veined cheese;2.2;8.3;0.6;0.8;2.1;18.0;40.2;2.2;72.1;74.3;5
+Soft cheese;Dairy;not specified ;Cheese;soft cheese;3.6;5.9;0.2;2.9;2.9;7.0;179.3;114.0;312.1;315.7;"9; 4"
+Feta;Dairy;not specified ;Cheese;soft cheese;2.1;3.0;0.3;0.6;1.0;4.1;11.6;0.5;21.1;23.2;"1; 5"
+Mozzarella (part skim);Dairy;not specified ;Cheese;soft cheese;1.4;1.4;ND;ND;0.5;ND;51.8;7.7;61.4;62.8;4
+Halloumi;Dairy;not specified ;Cheese;soft cheese;1.5;5.4;0.1;0.4;0.5;3.1;9.1;0.5;19.2;20.7;5
+Semi Soft cheese;Dairy;not specified ;Cheese;semi soft cheese;2.4;7.1;ND;ND;0.6;3.8;198.0;13.3;222.8;225.2;4
+Raclette;Dairy;not specified ;Cheese;semi soft cheese;1.6;4.8;0.4;0.3;1.1;4.8;20.9;ND;32.3;33.8;1
+Salad cheese;Dairy;not specified ;Cheese;semi soft cheese;1.5;5.7;0.4;0.5;1.0;8.2;22.0;0.9;38.7;40.2;5
+Danbo Cheese (20% fat) 10-14 weeks;Dairy;not specified ;Cheese;semi soft cheese;0.8;2.5;0.3;0.3;1.0;8.4;30.6;2.0;45.0;45.8;5
+Young Gouda;Dairy;not specified ;Cheese;semi soft cheese;3.0;11.3;0.4;0.5;1.4;8.8;25.7;1.2;49.2;52.2;"1; 5"
+Samso cheese (30% fat);Dairy;not specified ;Cheese;semi soft cheese;0.9;3.9;0.2;0.2;0.6;5.0;26.6;1.8;38.3;39.2;5
+Milner (young);Dairy;not specified ;Cheese;semi soft cheese;2.2;7.8;0.4;0.3;1.0;5.8;28.4;ND;43.6;45.8;1
+Edam;Dairy;not specified ;Cheese;semi soft cheese;3.8;11.3;ND;ND;ND;7.5;45.9;ND ;64.7;68.4;11
+Maasdam;Dairy;not specified ;Cheese;semi soft cheese;3.5;11.5;0.5;0.5;1.5;8.5;26.6;ND;49.0;52.5;11
+Havarti Cheese (60% fat);Dairy;not specified ;Cheese;semi soft cheese;3.1;10.7;0.2;0.2;0.5;5.1;18.7;1.4;36.8;39.9;5
+Danbo Cheese (45% fat) 15-20 weeks;Dairy;not specified ;Cheese;semi hard cheese;1.8;6.5;0.2;0.4;1.3;7.7;27.1;1.5;44.6;46.5;5
+Manchego;Dairy;not specified ;Cheese;semi hard cheese;3.6;7.3;0.5;0.7;1.2;7.9;17.7;0.7;35.9;39.5;5
+Emmentaler;Dairy;not specified ;Cheese;semi hard cheese;2.4;8.3;1.1;0.2;1.9;3.1;5.1;0.5;20.2;22.6;"1; 5"
+Gruyere;Dairy;not specified ;Cheese;semi hard cheese;2.5;5.2;1.4;ND;ND;ND;ND;ND;6.5;9.0;1
+Middle aged Gouda;Dairy;not specified ;Cheese;semi hard cheese;4.0;14.8;0.4;0.4;1.6;8.8;39.6;ND;65.6;69.5;1
+Aged Gouda;Dairy;not specified ;Cheese;semi hard cheese;3.9;20.8;0.4;0.5;1.6;9.3;40.3;ND;72.9;76.8;1
+Cheddar (full fat);Dairy;not specified ;Cheese;semi hard cheese;2.6;8.5;0.5;0.4;0.9;4.4;12.7;14.3;41.7;44.3;"1; 4; "
+Cheddar (low fat);Dairy;not specified ;Cheese;semi hard cheese;1.1;5.5;NA;NA;ND;NA;NA;NA;2.6;3.7;8
+Milner (middle aged);Dairy;not specified ;Cheese;semi hard cheese;2.3;8.4;0.4;0.3;1.1;6.5;30.6;ND;47.4;49.7;1
+Milner (aged);Dairy;not specified ;Cheese;semi hard cheese;2.3;1.0;0.4;0.4;1.1;6.3;26.8;ND;36.0;38.2;1
+Grana Padano;Dairy;not specified ;Cheese;hard cheese;2.1;ND;ND;0.1;0.1;0.2;ND;ND;0.3;2.4;1
+Pecorino;Dairy;not specified ;Cheese;hard cheese;5.6;9.4;ND;ND;ND;ND;ND;ND;9.4;14.9;1
+Hard cheese;Dairy;not specified ;Cheese;hard cheese;6.4;6.9;0.8;0.4;0.1;10.9;111.6;48.3;130.5;136.9;"4; 9"
+Parmagiano Reggiano;Dairy;not specified ;Cheese;hard cheese;1.4;7.5;ND;0.1;0.1;0.6;0.1;0.2;8.6;10.0;"5; 8"
+Processed cheese;Dairy;not specified ;Cheese;not specified ;2.0;6.0;0.1;0.1;0.7;3.5;28.1;2.4;40.8;42.8;"4; 7; 5"
+Goat Cheese;Dairy;not specified ;Cheese;not specified ;2.9;5.8;0.4;1.1;1.1;7.7;31.5;2.0;49.5;52.4;5
+Whole eggs fresh;Egg;not specified ;not specified ;not specified ;1.4;15.1;NA;NA;ND;NA;NA;NA;5.6;7.0;"2; 7; 8"
+Whole eggs fried;Egg;not specified ;not specified ;not specified ;0.9;9.0;NA;NA;ND;NA;NA;NA;9.0;9.9;2
+Egg yolk;Egg;not specified ;not specified ;not specified ;4.6;47.7;0.0;0.7;ND;ND;ND;NA;48.4;53.0;"9; 7"
+Egg white;Egg;not specified ;not specified ;not specified ;0.0;0.9;ND;ND;ND;ND;ND;NA;0.9;0.9;9. 7
+Egg (free range);Egg;not specified ;not specified ;not specified ;1.3;30.9;;1.2;1.4;1.6;;;35.0;36.3;5
+Egg (barn);Egg;not specified ;not specified ;not specified ;0.9;29.6;;0.9;0.9;1.5;;;32.9;33.8;5
+Minced Beef (medium fat);Meat;not specified ;Beef;not specified ;1.5;9.5;ND;ND;ND;ND;ND;ND;9.5;11.0;"2; 8;  9; 11"
+Beef;Meat;not specified ;Beef;not specified ;0.4;5.9;ND;ND;0.7;1.9;ND;ND;5.9;6.3;"9; 1; 8"
+Chuck (raw);Meat;not specified ;Beef;not specified ;0.6;15.0;NA;NA;ND;NA;NA;NA;15.0;15.6;7
+Liver (beef);Meat;not specified ;Beef;organs;2.7;0.3;ND;1.1;5.0;1.6;1.5;1.8;11.3;3.5;2
+Corned beef;Meat;not specified ;Beef;not specified ;3.9;7.7;ND;ND;ND;ND;ND;NA;7.7;11.6;9
+Topside beef;Meat;not specified ;Beef;not specified ;0.4;2.7;ND;ND;ND;0.2;0.3;1.0;4.1;4.5;5
+Knuckle;Meat;not specified ;Beef;not specified ;0.4;2.9;ND;ND;0.1;0.1;0.2;0.5;3.8;4.2;5
+Brisket;Meat;not specified ;Beef;not specified ;1.0;6.5;ND;ND;ND;ND;ND;0.3;6.8;7.7;5
+Rumpsteak;Meat;not specified ;Beef;not specified ;1.8;4.2;ND;ND;ND;ND;ND;0.2;4.5;6.3;5
+Beef steak;Meat;not specified ;Beef;not specified ;0.8;2.4;ND;ND;ND;ND;ND;ND;2.4;3.2;1
+Beef sausage ;Meat;not specified ;Beef;sausages;0.3;3.0;NA;NA;ND;NA;NA;NA;3.0;3.3;8
+Salami (beef) ;Meat;not specified ;Beef;sausages;3.2;10.8;ND;0.3;1.1;0.2;0.2;0.1;12.7;15.9;"9; 5"
+Raw chicken liver;Meat;not specified ;Beef;organs;ND;14.1;NA;NA;NA;NA;NA;NA;14.1;;2
+Chicken barbeque;Meat;not specified ;Poultry;not specified ;2.0;22.1;NA;NA;NA;NA;NA;NA;22.1;24.1;2
+Chicken breast ;Meat;not specified ;Poultry;not specified ;ND;9.4;ND ;0.1;0.6;0.5;ND ;ND;9.4;9.4;"9; 2; 5"
+Chicken thighs;Meat;not specified ;Poultry;not specified ;ND;23.6;ND ;ND ;0.7;ND ;ND ;NA;23.6;23.6;"9; 5"
+Chicken meat;Meat;not specified ;Poultry;not specified ;0.2;18.3;ND;ND;ND;ND;ND;ND;18.3;18.3;"1; 8"
+Chicken nuggets;Meat;not specified ;Poultry;not specified ;8.4;10.6;NA;NA;NA;NA;NA;NA;10.6;19.0;2
+Chicken skin;Meat;not specified ;Poultry;not specified ;0.1;65.9;ND;ND;1.6;0.5;0.2;0.3;68.4;68.5;5
+Bacon (raw);Meat;not specified ;Pork;not specified ;ND;5.6;NA;NA;NA;NA;NA;NA;5.6;;2
+Hamburger (2-4 oz);Meat;not specified ;Beef;not specified ;5.9;2.3;NA;NA;NA;NA;NA;NA;2.3;8.2;2
+Hamburger (with cheese and sauce);Meat;not specified ;Beef;not specified ;13.5;2.3;NA;NA;NA;NA;NA;NA;2.3;15.8;2
+Steak (pork);Meat;not specified ;Pork;not specified ;0.3;2.1;ND;ND;0.5;1.1;ND;NA;3.7;4.0;9
+Loin;Meat;not specified ;Pork;not specified ;ND;4.2;ND;ND;ND;0.2;0.2;0.4;5.1;5.1;"2; 5"
+Thigh (raw);Meat;not specified ;Pork;not specified ;ND;0.6;NA;NA;ND;NA;NA;NA;0.6;0.6;7
+Pork;Meat;not specified ;Pork;not specified ;ND;1.4;ND;ND;ND;ND;ND;ND;1.4;1.4;1
+Liver;Meat;not specified ;Pork;organs;1.1;1.6;ND;0.3;0.8;0.6;0.3;0.6;4.3;5.3;"9; 11; 5"
+Liverpate;Meat;not specified ;Pork;organs;1.0;8.2;;0.2;0.7;0.6;0.2;0.3;10.2;11.2;5
+Ham;Meat;not specified ;Pork;not specified ;0.6;11.9;ND;0.3;0.6;1.4;0.9;0.3;15.5;11.9;"2; 1"
+Bacon;Meat;not specified ;Pork;not specified ;ND;13.0;ND;0.2;0.3;ND;ND;ND;13.0;13.0;"5. 1; 8"
+Cutlet;Meat;not specified ;Pork;not specified ;ND;1.1;ND;0.1;ND;ND;ND;ND;1.2;1.2;1
+Minced meat;Meat;not specified ;Pork;not specified ;ND;9.0;ND;ND;ND;ND;ND;ND;9.0;9.0;"5; 1"
+Chops;Meat;not specified ;Pork;not specified ;6.5;ND;5.0;ND;ND;ND;ND;ND;5.0;11.5;1
+Neck chops;Meat;not specified ;Pork;not specified ;ND;10.9;ND;ND;0.5;0.2;0.2;0.4;12.1;12.1;5
+Schnitzel;Meat;not specified ;Pork;not specified ;ND;5.8;ND;ND;0.1;0.2;0.3;0.5;6.9;6.9;5
+Heart;Meat;not specified ;Pork;organs;ND;17.1;ND;ND;1.5;2.0;ND;ND;20.6;20.6;5
+Chorizo;Meat;not specified ;Pork;Sausages;2.2;12.6;ND;0.3;2.1;2.0;0.8;ND;17.9;20.1;5
+Salami (pork);Meat;not specified ;Pork;Sausages;2.8;15.7;ND;0.2;1.3;1.2;0.8;ND;19.1;21.9;5
+Wiener sausage ;Meat;not specified ;Pork;Sausages;0.7;10.5;ND;ND;1.7;ND;ND;ND;12.2;12.8;5
+Goose leg;Meat;not specified ;Poultry;not specified ;4.1;31.0;ND;ND;ND;ND;ND;NA;31.0;35.1;9
+Duck breast with skin;Meat;not specified ;Poultry;not specified ;ND;22.8;ND;ND;ND;ND;ND;ND;22.8;22.8;5
+Duck breast;Meat;not specified ;Poultry;not specified ;1.9;3.6;ND;ND;ND;ND;ND;NA;3.6;5.5;9
+Deer ;Meat;not specified ;Game;not specified ;2.4;0.9;ND;ND;ND;ND;ND;ND;0.9;3.3;1
+Turkey breast;Meat;not specified ;Poultry;not specified ;ND;33.4;ND;ND;ND;ND;ND;0.1;33.5;33.5;5
+Lamb meat;Meat;not specified ;Lamb;not specified ;0.4;11.6;NA;NA;ND;NA;NA;NA;11.6;12.0;8
+Lamb rump;Meat;not specified ;Lamb;not specified ;2.9;12.6;ND;ND;ND;ND;ND;ND;12.6;15.5;5
+Lamb minced;Meat;not specified ;Lamb;not specified ;4.2;15.9;ND;ND;0.2;ND;ND;0.2;16.2;20.4;5
+Lamb chops;Meat;not specified ;Lamb;not specified ;1.4;12.0;ND;ND;ND;ND;ND;ND;12.0;13.4;1
+Lamb liver;Meat;not specified ;Lamb;not specified ;4.9;2.6;ND;ND;ND;ND;ND;ND;2.6;7.5;1
+Veal brisk;Meat;not specified ;Veal;not specified ;ND;6.3;ND;ND;ND;0.2;0.4;1.1;8.0;8.0;5
+Veal shortloin;Meat;not specified ;Veal;not specified ;ND;30.7;ND;ND;0.4;0.2;0.2;0.4;31.9;31.9;5
+Veal meat;Meat;not specified ;Veal;not specified ;0.1;1.0;NA;NA;ND;NA;NA;NA;1.0;1.1;8
+Veal liver;Meat;not specified ;Veal;not specified ;2.2;1.0;ND;1.8;4.8;3.5;2.1;6.1;19.2;21.4;5
+Kangaroo steak ;Meat;not specified ;Kangaroo;not specified ;0.5;1.3;ND;ND;ND;ND;ND;ND;1.3;1.8;"1; 8"
+Eel;Fish;not specified ;Fresh water ;not specified ;17.7;21.2;ND;0.1;0.2;ND;ND;NA;21.4;39.1;"9; 1; 13"
+Trout;Fish;not specified ;Fresh water ;not specified ;0.9;0.5;ND;ND;ND;ND;ND;NA;0.5;1.4;"9; 5"
+Bass;Fish;not specified ;Fresh water ;not specified ;0.0;0.5;ND;ND;NA;ND;NA;ND;0.5;0.5;13
+Rainbow trout;Fish;not specified ;Fresh water ;not specified ;0.1;0.7;ND;ND;NA;ND;NA;ND;0.7;0.8;13
+Pike perch;Fish;not specified ;Fresh water ;not specified ;0.1;0.2;ND;ND;NA;ND;NA;ND;0.2;0.3;13
+Carp;Fish;not specified ;Fresh water;not specified ;0.2;0.1;ND;0.0;NA;0.0;NA;ND;0.1;0.3;13
+Salmon;Fish;not specified ;Marine;not specified ;2.4;2.0;ND;ND;0.4;6.2;ND;0.3;8.9;11.3;"2; 1; 5"
+Mackerel;Fish;not specified ;Marine;not specified ;5.9;2.0;ND;ND;ND;ND;ND;NA;2.0;7.9;"9. 7; 1"
+Herring;Fish;not specified ;Marine;not specified ;0.3;1.3;ND;ND;0.2;2.1;ND;0.2;3.7;4.0;"9; 5; 13"
+Flat fish;Fish;not specified ;Marine;not specified ;0.0;0.2;ND;0.3;0.1;1.6;ND;NA;2.2;2.2;"9; 13"
+Halibut (raw);Fish;not specified ;Marine;not specified ;ND;ND;NA;NA;NA;NA;NA;NA;0.0;0.0;2
+Lemon sole;Fish;Flat fish;Marine;not specified ;0.0;0.1;ND;0.0;NA;ND;NA;ND;0.1;0.1;13
+Cod;Fish;not specified ;Marine;not specified ;0.3;1.8;ND;0.2;5.8;4.2;ND;ND;12.0;12.0;5
+Plaice;Fish;Flat fish ;Marine;not specified ;ND;0.3;ND;0.2;0.2;1.3;ND;ND;2.0;2.0;"5; 13; 11"
+Barramundi (Barsch);Fish;not specified ;Marine;not specified ;0.2;2.2;NA;NA;ND;NA;NA;NA;2.2;2.4;8
+Snapper;Fish;not specified ;Marine;not specified ;ND;0.8;NA;NA;ND;NA;NA;NA;0.8;0.8;8
+Anglerfish;Fish;not specified ;Marine;not specified ;ND;0.0;ND;NA;ND;ND;NA;ND;0.0;0.0;13
+Commom dab;Fish;Flat fish;Marine;not specified ;0.0;0.1;ND;0.0;NA;0.0;NA;ND;0.1;0.1;13
+Flounder;Fish;Flat fish;Marine;not specified ;0.2;0.1;ND;ND;NA;ND;NA;ND;0.1;0.3;13
+Haddock;Fish;not specified ;Marine;not specified ;0.1;ND;ND;0.1;NA;ND;NA;ND;0.1;0.2;13
+Hake;Fish ;Cod;Marine;not specified ;0.0;0.1;ND;ND;NA;ND;NA;ND;0.1;0.1;13
+Megrim ;Fish ;Flat fish;Marine;not specified ;0.0;0.0;ND;ND;NA;ND;NA;ND;0.0;0.0;13
+Saithe ;Fish;not specified ;Marine;not specified ;0.0;0.1;ND;ND;NA;ND;NA;ND;0.1;0.1;13
+Turbot;Fish;Flat fish;Marine;not specified ;0.0;0.1;ND;0.0;NA;ND;NA;ND;0.1;0.1;13
+Whiting;Fish;not specified ;Marine;not specified ;0.0;0.1;ND;0.0;NA;0.0;NA;ND;0.1;0.1;13
+Sprat ;Fish;not specified ;Marine;not specified ;1.0;1.1;ND;ND;NA;ND;NA;ND;1.1;2.1;13
+Blue mussels;Fish;not specified ;Shell fish;not specified ;0.6;2.7;0.3;4.0;1.1;0.6;0.1;0.1;8.8;9.5;12
+Scallop;Fish;not specified ;Shell fish;not specified ;0.1;0.1;0.0;0.0;0.0;0.0;0.0;0.0;0.2;0.4;12
+Crayfish;Fish;not specified ;Shell fish;not specified ;0.8;0.0;0.1;0.1;0.1;0.1;0.0;0.0;0.4;1.1;12
+Lobster;Fish;not specified ;Shell fish;not specified ;0.0;0.0;0.0;0.0;0.0;0.3;0.0;0.0;0.4;0.4;12
+Prawns;Fish;not specified ;Shell fish;not specified ;0.1;ND;0.1;2.5;2.9;0.1;0.2;0.1;5.9;5.9;"1; 5"
+Shrimp;Fish;not specified ;Shell fish;not specified ;0.1;0.1;0.0;0.0;0.0;4.0;0.0;0.0;4.2;4.3;"2; 5; 12"
+Crab;Fish;not specified ;Shell fish;not specified ;3.0;0.1;0.4;3.5;1.8;1.0;0.2;0.2;7.3;10.3;"9; 2; 12"
+Hot smoked salmon;Fish;not specified ;Processed;not specified ;5.2;6.2;ND;ND;ND;ND;ND;ND;6.2;11.4;5
+Tinned salmon;Fish;not specified ;Processed;not specified ;0.4;2.0;NA;NA;ND;NA;NA;NA;2.0;2.4;8
+Brined tuna;Fish;not specified ;Processed;not specified ;1.5;3.2;ND;0.6;NA;0.3;NA;NA;4.0;5.5;2
+Fish stick from salmon;Fish;not specified ;Processed;not specified ;0.4;0.1;ND;ND;NA;0.1;NA;0.0;0.2;0.6;13
+Fish stick from pollock;FIsh;not specified ;Processed;not specified ;0.5;0.0;0.0;ND;NA;ND;NA;0.0;0.1;0.6;13
+Tuna in vegetable oil;Fish ;not specified ;Processed;not specified ;13.1;0.8;1.4;0.1;NA;0.4;NA;ND;2.7;15.8;13
+Soy sauce ;Fermented food;not specified ;not specified ;sauce;ND;9.5;ND;0.2;0.2;ND;1.4;NA;11.5;11.5;6
+Cotton tofu (hard tofu);Soy;not specified ;not specified ;not specified ;12.0;0.1;NA;NA;ND;NA;NA;NA;0.1;12.1;7
+Soygurt/ plantgurt;Substitute;Soy;not specified ;not specified ;4.7;ND;ND;ND;ND;0.2;ND;ND;0.2;5.0;"10; 5"
+Vegan slices;Substitute;not specified ;not specified ;not specified ;4.9;0.1;ND;1.0;3.6;0.7;0.2;0.1;5.7;10.6;5
+Vegan Cheese slices;Substitute;not specified ;not specified ;not specified ;0.5;ND;ND;1.0;4.3;0.9;0.2;0.3;6.6;7.1;5
+Plant based grated;Substitute;not specified ;not specified ;not specified ;7.5;0.1;ND;1.2;4.1;0.8;0.3;0.1;6.6;14.0;5
+Sauerkraut;Vegetables ;Fermented food;not specified ;not specified ;18.2;0.3;0.6;1.5;0.1;0.8;1.9;ND;5.3;23.4;"9; 1; 8"
+Tempeh;Soy;Fermented food;not specified ;not specified ;2.1;0.7;ND;3.1;2.0;ND;ND;NA;5.9;6.7;6
+Silken tofu (soft tofu);Soy;not specified ;not specified ;not specified ;12.0;0.0;NA;NA;ND;NA;NA;NA;0.0;12.0;7
+Black bean natto;Fermented food;not specified ;not specified ;not specified ;45.0;2.0;NA;NA;939.0;NA;NA;NA;941.0;986.0;7
+Natto;Fermented food;Soy;not specified ;not specified ;27.8;1.3;NA;7.2;672.4;82.4;ND;ND;763.3;791.1;7. 1
+Kefir;Fermented food;Dairy;not specified ;not specified ;1.6;ND;ND;ND;ND;3.9;4.5;NA;8.4;10.0;10
+Miso paste;Fermented food;Soy;not specified ;not specified ;ND;1.1;ND;0.5;3.1;ND;1.9;NA;6.9;6.9;6
+Kimchi;Fermented food;Vegetables;not specified ;not specified ;18.5;1.9;ND;ND;ND;ND;ND;NA;1.9;20.4;"6; 10"
+Apple vinegar;Fermented food;Herbs & spices;not specified ;not specified ;3.1;2.4;ND;ND;ND;ND;ND;NA;2.4;5.5;6
+Sour dough (rhye);Fermented food;Cereals;not specified ;not specified ;ND;23.2;0.6;2.7;ND;ND;8.7;NA;35.3;35.3;6
+Banana;Fruit;not specified ;not specified ;not specified ;0.3;ND;ND;ND;ND;ND;ND;NA;0.0;0.3;9
+Appel;Fruit;not specified ;not specified ;not specified ;3.0;ND;ND;ND;ND;ND;ND;NA;0.0;3.0;9
+Orange;Fruit;not specified ;not specified ;not specified ;0.1;ND;ND;ND;ND;ND;ND;NA;0.0;0.1;9
+Kale;Vegetables ;not specified ;not specified ;not specified ;817.0;ND;ND;ND;ND;ND;ND;NA;0.0;817.0;9
+Spinach;Vegetables ;not specified ;not specified ;not specified ;387.0;ND;ND;ND;ND;ND;ND;NA;0.0;387.0;9
+Broccoli;Vegetables ;not specified ;not specified ;not specified ;156.0;ND;ND;ND;ND;ND;ND;NA;0.0;156.0;9
+Peas;Vegetables ;not specified ;not specified ;not specified ;36.0;ND;ND;ND;ND;ND;ND;NA;0.0;36.0;9
+Kidney beans;Vegetables ;not specified ;not specified ;not specified ;57.0;ND;NA;NA;ND;NA;NA;NA;0.0;57.0;7
+Sugar peas;Vegetables ;not specified ;not specified ;not specified ;49.0;ND;NA;NA;ND;NA;NA;NA;0.0;49.0;7
+Cabbage (raw);Vegetables ;not specified ;not specified ;not specified ;127.0;1.0;NA;NA;ND;NA;NA;NA;1.0;128.0;7
+Cabbage (boiled);Vegetables ;not specified ;not specified ;not specified ;180.0;0.4;NA;NA;ND;NA;NA;NA;0.4;180.4;7
+Cucumber (raw);Vegetables ;not specified ;not specified ;not specified ;64.0;1.0;NA;NA;ND;NA;NA;NA;1.0;65.0;7
+Broccoli (raw);Vegetables ;not specified ;not specified ;not specified ;307.0;ND;NA;NA;ND;NA;NA;NA;0.0;307.0;7
+Broccoli (boiled);Vegetables ;not specified ;not specified ;not specified ;280.0;ND;NA;NA;ND;NA;NA;NA;0.0;280.0;7
+Spinach (raw);Vegetables ;not specified ;not specified ;not specified ;498.0;ND;NA;NA;ND;NA;NA;NA;0.0;498.0;7
+Olives (Kalamata);Vegetables ;Fermented food;not specified ;not specified ;6.2;1.5;3.0;4.3;ND;ND;ND;NA;8.8;15.0;6
+Olives (green);Vegetables ;Fermented food;not specified ;not specified ;ND;4.1;ND;18.3;ND;863.5;ND;NA;886.0;886.0;6
+Spinach (boiled);Vegetables ;not specified ;not specified ;not specified ;525.0;ND;NA;NA;ND;NA;NA;NA;0.0;525.0;7
+Wakame algae;Algae;not specified ;not specified ;not specified ;1293.0;ND;ND;ND;ND;ND;ND;NA;0.0;1293.0;7
+Lettuce (raw);Vegetables ;not specified ;not specified ;not specified ;78.0;ND;NA;NA;ND;NA;NA;NA;0.0;78.0;7
+Red leave lettuce (raw);Vegetables ;not specified ;not specified ;not specified ;166.0;ND;NA;NA;ND;NA;NA;NA;0.0;166.0;7
+Margarine;Fats & Oil;not specified ;not specified ;not specified ;76.5;2.2;ND;ND;0.1;ND;ND;NA;2.3;78.8;"9; 7; 8"
+Butter;Fats & Oil;not specified ;not specified ;not specified ;7.3;15.2;ND;ND;ND;ND;ND;NA;15.2;22.6;"9; 7; 8"
+Corn oil;Fats & Oil;not specified ;not specified ;not specified ;2.9;ND;ND;ND;ND;ND;ND;NA;0.0;2.9;9
+Sunflower oil;Fats & Oil;not specified ;not specified ;not specified ;5.7;ND;ND;ND;ND;ND;ND;NA;0.0;5.7;"9; "
+Olive oil;Fats & Oil;not specified ;not specified ;not specified ;58.4;0.2;ND;ND;ND;ND;ND;NA;0.2;58.6;"9; 7"
+Soy bean oil;Fats & Oil;not specified ;not specified ;not specified ;234.0;ND;NA;NA;ND;NA;NA;NA;0.0;234.0;7
+Rapseed oil;Fats & Oil;not specified ;not specified ;not specified ;92.0;ND;NA;NA;3.0;NA;NA;NA;3.0;95.0;7
+Brown rice (cooked);Cereals;not specified ;Grains;not specified ;0.2;ND;NA;NA;ND;NA;NA;NA;0.0;0.2;7
+White rice (cooked);Cereals;not specified ;Grains;not specified ;0.1;ND;NA;NA;ND;NA;NA;NA;0.0;0.1;7
+Rhye bred;Cereals;not specified ;Bread;not specified ;0.7;ND;ND;ND;ND;ND;ND;NA;0.0;0.7;9
+Rhye bread with kernel;Cereals;not specified ;Bread;not specified ;1.9;ND;ND;ND;ND;0.2;0.1;ND;0.4;2.2;5
+Ciabatta;Cereals;not specified ;Bread;not specified ;0.3;ND;ND;ND;0.1;ND;ND;NA;0.1;0.4;5
+Wheat buns;Cereals;not specified ;Bread;not specified ;2.7;ND;ND;ND;ND;0.1;0.3;0.3;0.6;3.3;5
+Wheat bread;Cereals;not specified ;Bread;not specified ;1.1;ND;ND;ND;ND;ND;ND;NA;0.0;1.1;9
+Sour dough bread;Cereals;not specified ;Bread;not specified ;1.0;ND;ND;ND;1.1;ND;ND;NA;1.1;2.1;9
+buckwheat bread;Cereals;not specified ;Bread;not specified ;3.0;ND;ND;ND;ND;ND;ND;NA;0.0;3.0;9
+Muesli;Cereals;not specified ;Cereal product;not specified ;3.7;ND;ND;ND;ND;ND;ND;ND;0.0;3.7;5
+Black tea (brewed);Drinks;not specified ;not specified ;not specified ;ND;3.7;ND;0.3;ND;70.8;2.7;ND;77.5;77.5;"6; 7; 9"
+Coffee (black. brewed);Drinks;not specified ;not specified ;not specified ;0.3;3.2;ND;5.5;ND;ND;4.0;NA;12.7;13.0;"6; 9"
+Orange juice;Drinks;not specified ;not specified ;not specified ;ND;ND;ND;ND;ND;ND;ND;NA;0.0;0.0;9
+Matcha (powder);Drinks;not specified ;not specified ;not specified ;117.0;1.2;1.7;1385.8;ND;ND;26.4;NA;1415.1;1532.1;6
+Milk shake;Drinks;Dairy;not specified ;not specified ;0.6;3.4;NA;NA;ND;NA;NA;NA;3.4;4.0;2
+Green tea (brewed);Drinks;not specified ;not specified ;not specified ;0.6;0.7;NA;3.4;ND;ND;ND;NA;4.1;4.7;6
+Kombucha;Drinks;Fermented food;not specified ;not specified ;5.3;15.7;ND;14.9;1.2;ND;20.7;NA;52.6;57.9;6
+Cocoa (powder);Drinks;Herbs & spices;Sweets;not specified ;19.4;2.1;1.4;ND;ND;ND;ND;NA;3.5;22.9;6
+Mayonnaise with whole egg;Fats & oils;not specified ;Sauces;not specified ;197.0;17.0;NA;NA;ND;NA;NA;NA;17.0;214.0;7
+Mayonnaise with egg yolk;Fats & oils;not specified ;Sauces;not specified ;189.0;38.0;NA;NA;ND;NA;NA;NA;38.0;227.0;7
+Curry powder;Herbs & spices;not specified ;not specified ;not specified ;93.0;1.0;NA;NA;6.0;NA;NA;NA;7.0;100.0;7
+Green Pepper;Herbs & spices;not specified ;not specified ;not specified ;41.9;3.0;ND;ND;0.9;ND;3.9;NA;8.9;49.9;6
+Vanilla (whole pod);Herbs & spices;not specified ;not specified ;not specified ;623.1;2515.7;ND;41.5;ND;ND;ND;NA;3025.3;3180.4;6
+Apple Pie;Sweets;not specified ;Cake;not specified ;15.2;0.6;NA;NA;NA;NA;NA;NA;0.6;15.8;3
+Pecan Pie;Sweets;not specified ;Cake;not specified ;15.5;0.2;NA;NA;NA;NA;NA;NA;0.2;15.7;3
+Cheesecake;Sweets;not specified ;Cake;not specified ;3.0;6.2;ND;ND;ND;ND;1.7;ND;7.9;10.9;1
+Microalgae;Algae;not specified ;not specified ;not specified ;1180.0;2255.0;16.0;1363.0;202.0;24.0;28.0;405.0;4293.0;5473.0;5
