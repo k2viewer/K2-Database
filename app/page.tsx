@@ -60,23 +60,35 @@ export default function Page() {
 
   function getSortedRows(rows: Row[]) {
     if (!sortColumn) return rows;
-
+  
     return [...rows].sort((a, b) => {
       const aRaw = String(a[sortColumn] ?? "").trim();
       const bRaw = String(b[sortColumn] ?? "").trim();
-
+  
+      // Special values always at bottom
+      const specialValues = ["NA", "ND", ""];
+  
+      const aSpecial = specialValues.includes(aRaw.toUpperCase());
+      const bSpecial = specialValues.includes(bRaw.toUpperCase());
+  
+      if (aSpecial && !bSpecial) return 1;
+      if (!aSpecial && bSpecial) return -1;
+      if (aSpecial && bSpecial) return 0;
+  
+      // Numeric sorting
       const aNum = normalizeNumber(aRaw);
       const bNum = normalizeNumber(bRaw);
-
+  
       if (aNum !== null && bNum !== null) {
         return sortAsc ? aNum - bNum : bNum - aNum;
       }
-
+  
+      // Text sorting
       const result = aRaw.localeCompare(bRaw, undefined, {
         numeric: true,
         sensitivity: "base",
       });
-
+  
       return sortAsc ? result : -result;
     });
   }
@@ -283,10 +295,15 @@ function Footer() {
           {open === "datenschutz" && (
             <div className="details-content">
               <p>
-                Diese Website dient ausschließlich Studienzwecken. Es werden
-                keine personenbezogenen Daten dauerhaft gespeichert.
-                Server-Logfiles können durch den Hosting-Anbieter erfasst
-                werden.
+              Datenschutzerklärung: Diese Website dient ausschließlich Informations- und Studienzwecken.<br></br>
+              Beim Besuch der Website können durch den Hosting-Anbieter technische Zugriffsdaten
+              (Server-Logfiles) erfasst werden. Dies umfasst beispielsweise IP-Adresse,
+              Datum und Uhrzeit der Anfrage, Browsertyp sowie Betriebssystem.
+              Die Verarbeitung dieser Daten erfolgt ausschließlich zur technischen Bereitstellung
+              und Sicherheit der Website.<br></br>
+              Es werden keine personenbezogenen Daten aktiv erhoben oder dauerhaft gespeichert.
+              Es werden keine Cookies zu Analyse- oder Marketingzwecken verwendet.<br></br>
+              Hosting: Die Website wird über Vercel Inc. bereitgestellt.
               </p>
             </div>
           )}
@@ -336,7 +353,7 @@ function Footer() {
                 <li>Own analysis.</li>
 
                 <li>
-                  <a href="https://doi.org/10.3177/jnsv.53.464" target="_blank" rel="noopener noreferrer">
+                  <a href="https://shibaura.elsevierpure.com/en/publications/vitamin-k-content-of-foods-and-dietary-vitamin-k-intake-in-japane/" target="_blank" rel="noopener noreferrer">
                     Kamao M, J Nutr Sci Vitaminol, 2007
                   </a>
                 </li>
@@ -348,7 +365,7 @@ function Footer() {
                 </li>
 
                 <li>
-                  <a href="https://doi.org/10.3390/ijms20040896" target="_blank" rel="noopener noreferrer">
+                  <a href="https://karger.com/pht/article/30/6/298/155561/Determination-of-Phylloquinone-and-Menaquinones-in" target="_blank" rel="noopener noreferrer">
                     Schurgers LJ, Haemostasis, 2019
                   </a>
                 </li>
